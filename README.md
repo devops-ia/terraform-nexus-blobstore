@@ -224,7 +224,3 @@ No resources.
 ## Authors
 
 Module is maintained by [DevOps IA](https://github.com/devops-ia) with help from [these awesome contributors](https://github.com/devops-ia/terraform-nexus-blobstore/graphs/contributors).
-
-## License
-
-Apache 2 Licensed. See [LICENSE](https://github.com/devops-ia/terraform-nexus-blobstore/blob/main/LICENSE) for full details.
