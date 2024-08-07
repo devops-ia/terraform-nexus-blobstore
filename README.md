@@ -1,6 +1,6 @@
 # Nexus Blobstore
 
-This module allows you to create **Nexus Blobstore as a global resource** and **individual Nexus Blobstore resources.** For individual examples, see the usage snippets and [examples](https://github.com/terraform-nexus-modules/terraform-nexus-blobstore/tree/main/examples).
+This module allows you to create **Nexus Blobstore as a global resource** and **individual Nexus Blobstore resources.** For individual examples, see the usage snippets and [examples](https://github.com/devops-ia/terraform-nexus-blobstore/tree/main/examples).
 
 ## Provider
 You need use a [Nexus provider](https://registry.terraform.io/providers/datadrivers/nexus/latest/docs).
@@ -19,8 +19,7 @@ provider "nexus" {
 
 ```hcl
 module "nexus_blobstore" {
-  source  = "terraform-nexus-modules/blobstore/nexus"
-  version = "1.0.0"
+  source  = "devops-ia/blobstore/nexus"
 
   nexus_blobstore_azure = [
     {
@@ -100,8 +99,7 @@ module "nexus_blobstore" {
 
 ```hcl
 module "nexus_blobstore_azure" {
-  source  = "terraform-nexus-modules/blobstore/nexus//modules/nexus_blobstore_azure"
-  version = "1.0.0"
+  source  = "devops-ia/blobstore/nexus//modules/nexus_blobstore_azure"
 
   name = "my-azure-blobstore"
 
@@ -125,8 +123,7 @@ module "nexus_blobstore_azure" {
 
 ```hcl
 module "nexus_blobstore_azure" {
-  source  = "terraform-nexus-modules/blobstore/nexus//modules/nexus_blobstore_file"
-  version = "1.0.0"
+  source  = "devops-ia/blobstore/nexus//modules/nexus_blobstore_file"
 
   name = "blobstore-file"
   path = "/nexus-data/blobstore-file"
@@ -142,8 +139,7 @@ module "nexus_blobstore_azure" {
 
 ```hcl
 module "nexus_blobstore_azure" {
-  source  = "terraform-nexus-modules/blobstore/nexus//modules/nexus_blobstore_group"
-  version = "1.0.0"
+  source  = "devops-ia/blobstore/nexus//modules/nexus_blobstore_group"
 
   name        = "group-example"
   fill_policy = "roundRobin"
@@ -158,8 +154,7 @@ module "nexus_blobstore_azure" {
 
 ```hcl
 module "nexus_blobstore_azure" {
-  source  = "terraform-nexus-modules/blobstore/nexus//modules/nexus_blobstore_s3"
-  version = "1.0.0"
+  source  = "devops-ia/blobstore/nexus//modules/nexus_blobstore_s3"
 
   name = "blobstore-s3"
 
@@ -228,8 +223,8 @@ No resources.
 
 ## Authors
 
-Module is maintained by [DevOps IA](https://github.com/devops-ia) with help from [these awesome contributors](https://github.com/terraform-nexus-modules/terraform-nexus-blobstore/graphs/contributors).
+Module is maintained by [DevOps IA](https://github.com/devops-ia) with help from [these awesome contributors](https://github.com/devops-ia/terraform-nexus-blobstore/graphs/contributors).
 
 ## License
 
-Apache 2 Licensed. See [LICENSE](https://github.com/terraform-nexus-modules/terraform-nexus-blobstore/blob/main/LICENSE) for full details.
+Apache 2 Licensed. See [LICENSE](https://github.com/devops-ia/terraform-nexus-blobstore/blob/main/LICENSE) for full details.
