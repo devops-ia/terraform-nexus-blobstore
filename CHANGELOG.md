@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/nexus-module/terraform-nexus-blobstore/compare/v1.1.0...v1.2.0) (2026-08-22)
+
+
+### Features
+
+* bump nexus provider to 3.0.0 ([#29](https://github.com/nexus-module/terraform-nexus-blobstore/issues/29)) ([fb27c01](https://github.com/nexus-module/terraform-nexus-blobstore/commit/fb27c014a1060a27dc03648717601c002589e3f7))
+
+
+### Bug Fixes
+
+* bump datadrivers/nexus in the terraform-major group ([#28](https://github.com/nexus-module/terraform-nexus-blobstore/issues/28)) ([7fc8f11](https://github.com/nexus-module/terraform-nexus-blobstore/commit/7fc8f112ad6cd710e47fb76ed71a68bab972001a))
+* bump datadrivers/nexus in the terraform-minor-patch group ([#27](https://github.com/nexus-module/terraform-nexus-blobstore/issues/27)) ([9d85bbe](https://github.com/nexus-module/terraform-nexus-blobstore/commit/9d85bbe7a3d19cff41bfc00d4a233a5f07ee1007))
+
 ## [1.1.0](https://github.com/devops-ia/terraform-nexus-blobstore/compare/v1.0.0...v1.1.0) (2024-08-07)
 
 
